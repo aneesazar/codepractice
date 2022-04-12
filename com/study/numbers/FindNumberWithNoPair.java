@@ -14,9 +14,10 @@ public class FindNumberWithNoPair {
 		
 		/* 1. Iterate array 
 			2. create hashmap store the number is key, occurance as value
-			3. return the key with 1 occurance
+			3. return the key with 1 occurrence
 			4. remove the key if we find second time, so that we can capture the scenarios same number with odd occurances (3,5,..)
 		*/
+
 		int result=0;
 		Map<Integer,Integer> occuranceMap = new HashMap<>();
 		for(int a: A) {
